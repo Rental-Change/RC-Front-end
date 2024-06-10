@@ -167,8 +167,8 @@ const Item = () => {
           {/* 북마크 버튼 */}
           {product.userID !== userID && 
             <button onClick={toggleBookmark} className='focus:outline-none'>
-            {bookmark.includes(productId) ? <FaRegHeart className='w-6 h-6'/>
-             : <FaHeart className='w-6 h-6 text-red-500'/>}
+            {bookmark.includes(productId) ? < FaHeart className='w-6 h-6 text-red-500'/>
+             : <FaRegHeart className='w-6 h-6 text-red-500'/>}
           </button>
           }
           
